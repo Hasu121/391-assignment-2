@@ -23,10 +23,10 @@ window.onload = function (){
 
 function Green(){
   fBox.style.backgroundColor = "lightpurple";
-  fBox.style.borderColor = "darkgreen";
+  fBox.style.borderColor = "black";
   fText.style.color = "darkgreen";
   fText.style.fontFamily = "Georgia, serif";
-  fText.style.fontSize = "1.5em";
+  fText.style.fontSize = "2.2em";
 }
 
 function Red(){
@@ -42,12 +42,12 @@ function Blue(){
   fBox.style.borderColor = "darkblue";
   fText.style.color = "darkblue";
   fText.style.fontFamily = "Times New Roman, serif";
-  fText.style.fontSize = "1.6em";
+  fText.style.fontSize = "2em";
 }
 
-function applyYellowStyle(){
-  fBox.style.backgroundColor = "lightyellow";
-  fBox.style.borderColor = "goldenrod";
+function Yellow(){
+  fBox.style.backgroundColor = "gold";
+  fBox.style.borderColor = "darkgreen";
   fText.style.color = "black";
   fText.style.fontFamily = "Arial, sans-serif";
   fText.style.fontSize = "1.7em";
