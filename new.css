@@ -1,0 +1,49 @@
+
+.common{
+    padding: 18% 8%;
+    background-color: aliceblue;
+    color: black;
+}
+
+.common h2{
+    font-size: 38px;
+    color: deepskyblue;
+    margin-bottom: 20px;
+}
+
+.common p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease;
+}
+
+.button p{
+    font-size: 18px;
+    color: black;
+    margin: 0;
+}
+
+.button strong{
+    color: rgb(42, 118, 143);
+}
+
+.button a{
+    color: rgb(41, 124, 151);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.button a:hover{
+    color: aliceblue;
+    border-bottom: 2px solid deepskyblue;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px deepskyblue;
+}

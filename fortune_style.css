@@ -1,0 +1,47 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 200px 20px 20px;
+}
+
+.fortune-content{
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#fortune-box{
+  margin: 50px auto;
+  padding: 20px;
+  width: 60%;
+  border: 2px solid #333;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#fortune-text{
+  font-size: 1.5em;
+  color: #333;
+}
+
+.button-container{
+  margin-top: 20px;
+}
+
+button{
+  margin: 5px;
+  padding: 8px 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0158b4;
+  color: white;
+}
+
+button:hover{
+  background-color: #2787ec;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="to-do-list_style.css">
+  <link rel="stylesheet" href="common_style.css">
+
+</head>
+<body>
+  <header class="header">
+    <a href="https://hasnain-portfolio.tiiny.site/portfolio.html" class="logo">
+      <img src="https://preview.redd.it/which-straw-hat-jolly-roger-do-you-like-the-most-mine-is-v0-pdnxvrbbt8qb1.jpg?width=1280&format=pjpg&auto=webp&s=f48197b5bc1c1d33e593f74c073da8186ab0f689" alt="Hasnain's Portfolio Logo">
+      <span>Hasnain's<br></span>Portfolio
+  </a>
+  <nav class="navbar">
+      <a href="common.html"><strong>Home</strong></a>
+      <a href="fortune.html">Fortune</a>
+      <a href="to-do-list.html">To-Do-List</a>
+      <a href="stopwatch.html">Stopwatch</a>
+  </nav>
+  <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hasnain.ashraf@g.bracu.ac.bd&su=Hello%20Hasnain" class="contact">Mail Me</a>
+  </header>
+  <div id="todo-container">
+    <input type="text" id="task-input" placeholder="Enter a new task">
+    <button id="add-task" onclick="addTask()">Add Task</button>
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="to-do-list.js"></script>
+</body>
+</html>
