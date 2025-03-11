@@ -30,9 +30,9 @@ function Green(){
 }
 
 function Red(){
-  fBox.style.backgroundColor = "lightcoral";
-  fBox.style.borderColor = "crimson";
-  fText.style.color = "darkred";
+  fBox.style.backgroundColor= "lightcoral";
+  fBox.style.borderColor = "darkblue";
+  fText.style.color = "midnightblue";
   fText.style.fontFamily = "Courier New, monospace";
   fText.style.fontSize = "1.8em";
 }
