@@ -1,4 +1,4 @@
-// Array of fortune messages
+
 const fortunes = [
   "True wisdom comes not from knowledge, but from understanding.",
   "The best way to predict the future is to create it.",
@@ -13,27 +13,23 @@ const fortunes = [
   "Your time is limited, don't waste it living someone else's life."
 ];
 
-// Get references to the fortune text and fortune box elements
 const fText = document.getElementById("fortune-text");
 const fBox = document.getElementById("fortune-box");
 
-// Function to display a random fortune when the page loads
-window.onload = function () {
+window.onload = function (){
   const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
   fText.textContent = randomFortune;
 };
 
-// Function to apply green-themed styles to the fortune box
-function applyGreenStyle() {
-  fBox.style.backgroundColor = "lightgreen";
+function Green(){
+  fBox.style.backgroundColor = "lightpurple";
   fBox.style.borderColor = "darkgreen";
   fText.style.color = "darkgreen";
   fText.style.fontFamily = "Georgia, serif";
   fText.style.fontSize = "1.5em";
 }
 
-// Function to apply red-themed styles to the fortune box
-function applyRedStyle() {
+function Red(){
   fBox.style.backgroundColor = "lightcoral";
   fBox.style.borderColor = "darkred";
   fText.style.color = "darkred";
@@ -41,8 +37,7 @@ function applyRedStyle() {
   fText.style.fontSize = "1.8em";
 }
 
-// Function to apply blue-themed styles to the fortune box
-function applyBlueStyle() {
+function Blue(){
   fBox.style.backgroundColor = "lightblue";
   fBox.style.borderColor = "darkblue";
   fText.style.color = "darkblue";
@@ -50,8 +45,7 @@ function applyBlueStyle() {
   fText.style.fontSize = "1.6em";
 }
 
-// Function to apply yellow-themed styles to the fortune box
-function applyYellowStyle() {
+function applyYellowStyle(){
   fBox.style.backgroundColor = "lightyellow";
   fBox.style.borderColor = "goldenrod";
   fText.style.color = "black";
