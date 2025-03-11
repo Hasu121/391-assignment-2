@@ -22,16 +22,16 @@ window.onload = function (){
 };
 
 function Green(){
-  fBox.style.backgroundColor = "lightpurple";
-  fBox.style.borderColor = "black";
-  fText.style.color = "darkgreen";
+  fBox.style.backgroundColor = "lightgreen";
+  fBox.style.borderColor = "aquamarine";
+  fText.style.color = "darkslateblue";
   fText.style.fontFamily = "Georgia, serif";
   fText.style.fontSize = "2.2em";
 }
 
 function Red(){
   fBox.style.backgroundColor = "lightcoral";
-  fBox.style.borderColor = "darkred";
+  fBox.style.borderColor = "crimson";
   fText.style.color = "darkred";
   fText.style.fontFamily = "Courier New, monospace";
   fText.style.fontSize = "1.8em";
